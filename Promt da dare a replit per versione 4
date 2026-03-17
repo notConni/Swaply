@@ -1,0 +1,100 @@
+SU REPLIT FARE:
+1. PARTE 
+  
+Improve session system.
+    
+    - When creating a session, allow:
+      - date and time
+      - max participants
+      - type: online or in-person
+    
+    If online:
+    - allow user to add external link (Google Meet, Zoom, etc.)
+    
+    If in-person:
+    - allow location input
+    
+    Show session details clearly to participants
+
+---------------------------------------------------------------------------------------------
+Fix and improve the swap and session system.
+
+1. Fix "Complete Swap" button
+- Currently, clicking the button does nothing
+- Implement proper logic:
+  - when one user clicks "Complete Swap", mark as "pending confirmation"
+  - when both users confirm → status = completed
+- Update UI and database correctly
+- Show confirmation status to both users
+
+2. Improve swap request
+- When sending a swap request, allow adding:
+  - optional meeting link (Google Meet, Zoom, etc.)
+- Store and display this link in the swap details
+
+3. Improve sessions browsing
+- In the "Browse Sessions" page, add filters:
+  - online or in-person
+  - location
+  - date
+  - skill/topic
+- Make filtering dynamic and user-friendly
+
+4. General
+- Do not modify unrelated parts of the code
+- Keep UI clean and simple
+
+--------------------------------------------------------------------------------------------------------------------
+
+2. PARTE
+
+Enhance the existing Skill Swap platform by adding unique and advanced features that set it apart from other skill exchange websites. The platform should maintain all existing functionality (user profiles, skill listings, messaging, reviews, notifications) and include the following new features:
+
+Intelligent skill matching system
+
+Suggest potential matches between users based on complementary skills and learning goals, similar to a dating algorithm for skill exchange.
+
+Include match scores or compatibility indicators.
+
+Scheduled sessions
+
+Allow users to propose and schedule learning sessions with each other.
+
+Include a simple calendar view and session reminders.
+
+Reputation levels
+
+Users gain reputation points for successfully completed swaps, positive reviews, and active participation.
+
+Display levels or badges on user profiles.
+
+Micro-challenges
+
+Offer short challenges related to skills being exchanged.
+
+Users can participate to earn extra points or badges.
+
+Group swaps
+
+Enable users to create small learning groups where multiple people can exchange skills together.
+
+Group sessions should have their own chat and scheduling.
+
+City skill map
+
+Display users’ skills on a city map to facilitate local in-person learning opportunities.
+
+Filter by skill type, level, or availability.
+
+Progress tracking
+
+Show each user what they have learned through completed swaps.
+
+Include simple progress bars or milestones.
+
+AI learning suggestions
+
+Suggest skills or topics for users to learn next based on their current profile, past swaps, and activity.
+
+The platform should remain modern, clean, and visually engaging, with a responsive design for desktop and mobile. Maintain all core features (authentication, messaging, search, notifications) while integrating these advanced, differentiating functions.
+    
