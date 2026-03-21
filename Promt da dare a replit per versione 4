@@ -26,6 +26,8 @@ Fix and improve the swap and session system.
   - when both users confirm → status = completed
 - Update UI and database correctly
 - Show confirmation status to both users
+--> FATTO 21.03.26 circa, un macello, ho creato supabase
+
 
 2. Improve swap request
 - When sending a swap request, allow adding:
