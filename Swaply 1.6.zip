@@ -1,0 +1,6 @@
+Aggiornamenti:
+- creazione database su supabase, creato tutte tabelle, e collegato tutto su account di replit
+- autenticazione mail con supabase e con mailtrap che non va ancora bene --> ho disattivato la conferma mail su supabase --> autenticazione posso abilitare o disattivare conferma mail "sign in/providers"
+- mailtrap ho usato skillswap.altervista@gmail.com
+- supabase ho usato aconatti.lavoro@gmail.com
+- replit ho usato aconatti.
